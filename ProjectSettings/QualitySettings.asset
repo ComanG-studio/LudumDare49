@@ -8,11 +8,11 @@ QualitySettings:
   m_QualitySettings:
   - serializedVersion: 2
     name: Low
-    pixelLightCount: 0
+    pixelLightCount: 1
     shadows: 1
     shadowResolution: 1
     shadowProjection: 1
-    shadowCascades: 1
+    shadowCascades: 2
     shadowDistance: 18
     shadowNearPlaneOffset: 3
     shadowCascade2Split: 0.33333334
@@ -20,11 +20,11 @@ QualitySettings:
     shadowmaskMode: 0
     skinWeights: 2
     textureQuality: 0
-    anisotropicTextures: 0
-    antiAliasing: 0
-    softParticles: 0
+    anisotropicTextures: 1
+    antiAliasing: 2
+    softParticles: 1
     softVegetation: 0
-    realtimeReflectionProbes: 0
+    realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 0
     vSyncCount: 0
     lodBias: 0.4
