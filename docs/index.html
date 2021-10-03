@@ -57,7 +57,7 @@
     <div id="unity-progress-bar">
     </div>
   </div>
-  <script src="Build/284f1460349fcecc8d76a43a18995d15.js"></script>
+  <script src="Build/docs.loader.js"></script>
   <script>
     const maxPixelRatioMobile = 2.0;
     const maxPixelRatioDesktop = 1.5;
@@ -67,11 +67,11 @@
     var pixelRatio = Math.min(window.devicePixelRatio, maxDevicePixelRatio);
 
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/284f1460349fcecc8d76a43a18995d15.js";
+    var loaderUrl = buildUrl + "/docs.loader.js";
     var config = {
-      dataUrl: buildUrl + "/b7ab2212d8784fda5a8dcf48e16b944a.data.unityweb",
-      frameworkUrl: buildUrl + "/869d6a7ff5f32c27a7626f60aefcd19b.js.unityweb",
-      codeUrl: buildUrl + "/fc2c16e77afc46960613e51bc63c7a5d.wasm.unityweb",
+      dataUrl: buildUrl + "/docs.data",
+      frameworkUrl: buildUrl + "/docs.framework.js",
+      codeUrl: buildUrl + "/docs.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "ComanG",
       productName: "WebGLTest",

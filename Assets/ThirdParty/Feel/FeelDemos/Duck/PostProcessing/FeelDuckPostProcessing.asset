@@ -26,56 +26,6 @@ MonoBehaviour:
   fastMode:
     overrideState: 1
     value: 0
---- !u!114 &-3386698810423057408
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29f414c45c95c4c4fab1fba6f7db9a44, type: 3}
-  m_Name: GlitchScanLineJitter
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  JitterDirection:
-    overrideState: 0
-    value: 0
-  intervalType:
-    overrideState: 0
-    value: 2
-  frequency:
-    overrideState: 0
-    value: 1
-  JitterIndensity:
-    overrideState: 0
-    value: 0.1
---- !u!114 &-1213945361000398736
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9ef3f5264488414c87b632cd2509b40, type: 3}
-  m_Name: GlitchRGBSplitV5
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  Amplitude:
-    overrideState: 1
-    value: 0.2
-  Speed:
-    overrideState: 0
-    value: 0.1
 --- !u!114 &-1080896226837862033
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -125,10 +75,8 @@ MonoBehaviour:
   settings:
   - {fileID: -1080896226837862033}
   - {fileID: -7535770070250639504}
-  - {fileID: -1213945361000398736}
-  - {fileID: 4818002159440375142}
-  - {fileID: -3386698810423057408}
---- !u!114 &4818002159440375142
+  - {fileID: 5570104670623426394}
+--- !u!114 &5570104670623426394
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,22 +85,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ec8e4c840c12a84f9cbb49d82780b09, type: 3}
-  m_Name: GlitchImageBlockV4
+  m_Script: {fileID: 11500000, guid: 0ad87ed76c4e75846a28e3a301084ed7, type: 3}
+  m_Name: BoxBlur
   m_EditorClassIdentifier: 
   active: 1
   enabled:
     overrideState: 1
     value: 1
-  Speed:
+  BlurRadius:
     overrideState: 1
-    value: 5
-  BlockSize:
-    overrideState: 1
-    value: 4
-  MaxRGBSplitX:
-    overrideState: 1
-    value: 0.25
-  MaxRGBSplitY:
-    overrideState: 1
-    value: 0.25
+    value: 0.2
+  Iteration:
+    overrideState: 0
+    value: 6
+  RTDownScaling:
+    overrideState: 0
+    value: 2
