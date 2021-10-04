@@ -38,7 +38,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9acc76ac9d8d4e4a8d7294a5bd00c85, type: 3}
   m_Name: GlitchImageBlockV3
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29f414c45c95c4c4fab1fba6f7db9a44, type: 3}
   m_Name: GlitchScanLineJitter
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9ef3f5264488414c87b632cd2509b40, type: 3}
   m_Name: GlitchRGBSplitV5
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
